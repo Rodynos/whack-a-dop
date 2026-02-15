@@ -3,9 +3,9 @@ import 'package:flame/game.dart';
 import 'package:flame_audio/flame_audio.dart';
 import 'package:flame_bloc/flame_bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:trial_flame/bloc/game_bloc.dart';
-import 'package:trial_flame/components/game_border.dart';
-import 'package:trial_flame/game/world.dart';
+import 'package:whack_a_dop/bloc/game_bloc.dart';
+import 'package:whack_a_dop/components/game_border.dart';
+import 'package:whack_a_dop/game/world.dart';
 
 class WhackADopGame extends FlameGame {
   final WhackADopWorld myWorld;
@@ -57,15 +57,14 @@ class WhackADopGame extends FlameGame {
   }
 
   void shakeCamera() {
-    // Check if a shake is already running to avoid "earthquake" stacking
     if (camera.viewfinder.children.whereType<MoveEffect>().isNotEmpty) return;
 
     final effect = MoveEffect.by(
-      Vector2(10, 10), // Shake intensity (10 pixels)
+      Vector2(10, 10),
       EffectController(
-        duration: 0.05, // Very fast
-        alternate: true, // Go back and forth
-        repeatCount: 3,  // Shake 3 times
+        duration: 0.05, 
+        alternate: true, 
+        repeatCount: 3, 
       ),
     );
     

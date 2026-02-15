@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trial_flame/bloc/game_bloc.dart';
+import 'package:whack_a_dop/bloc/game_bloc.dart';
 
 class StartOverlay extends StatelessWidget {
   final GameBloc gameBloc;
@@ -40,7 +40,7 @@ class StartOverlay extends StatelessWidget {
                 foregroundColor: Colors.black,
                 padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 20),
               ),
-              onPressed: onStart, // Triggers audio start
+              onPressed: onStart,
               child: const Text("START GAME", style: TextStyle(fontSize: 24)),
             ),
           ],
