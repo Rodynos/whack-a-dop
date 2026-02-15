@@ -1,4 +1,4 @@
-name: whack-a-dop
+name: whack_a_dop
 description: "a Whack-A-Mole like game."
 publish_to: 'none'
 version: 0.1.0
