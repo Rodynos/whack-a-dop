@@ -1,6 +1,6 @@
 import 'package:flame/components.dart';
 import 'package:flame/effects.dart';
-import 'package:whack_a_dop/components/ball.dart';
+import 'package:trial_flame/components/ball.dart';
 
 abstract class BallState {
   void update(double dt, Ball ball, [double speed = 1]);

@@ -1,6 +1,6 @@
 {
-    "name": "trial_flame",
-    "short_name": "trial_flame",
+    "name": "whack_a_dop",
+    "short_name": "whack_a_dop",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,14 +1,14 @@
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:whack_a_dop/bloc/game_bloc.dart';
-import 'package:whack_a_dop/game/game.dart';
-import 'package:whack_a_dop/game/world.dart';
-import 'package:whack_a_dop/ui/game_over_overlay.dart';
-import 'package:whack_a_dop/ui/game_won_overlay.dart';
-import 'package:whack_a_dop/ui/score_overlay.dart';
-import 'package:whack_a_dop/ui/shop_overlay.dart';
-import 'package:whack_a_dop/ui/start_overlay.dart';
+import 'package:trial_flame/bloc/game_bloc.dart';
+import 'package:trial_flame/game/game.dart';
+import 'package:trial_flame/game/world.dart';
+import 'package:trial_flame/ui/game_over_overlay.dart';
+import 'package:trial_flame/ui/game_won_overlay.dart';
+import 'package:trial_flame/ui/score_overlay.dart';
+import 'package:trial_flame/ui/shop_overlay.dart';
+import 'package:trial_flame/ui/start_overlay.dart';
 
 void main() {
   final myGame = WhackADopGame(myWorld: WhackADopWorld());

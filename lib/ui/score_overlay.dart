@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:whack_a_dop/bloc/game_bloc.dart';
+import 'package:trial_flame/bloc/game_bloc.dart';
 
 class ScoreOverlay extends StatelessWidget {
   final GameBloc gameBloc;

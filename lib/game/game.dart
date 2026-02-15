@@ -3,9 +3,9 @@ import 'package:flame/game.dart';
 import 'package:flame_audio/flame_audio.dart';
 import 'package:flame_bloc/flame_bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:whack_a_dop/bloc/game_bloc.dart';
-import 'package:whack_a_dop/components/game_border.dart';
-import 'package:whack_a_dop/game/world.dart';
+import 'package:trial_flame/bloc/game_bloc.dart';
+import 'package:trial_flame/components/game_border.dart';
+import 'package:trial_flame/game/world.dart';
 
 class WhackADopGame extends FlameGame {
   final WhackADopWorld myWorld;

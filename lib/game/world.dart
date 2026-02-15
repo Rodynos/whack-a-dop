@@ -2,9 +2,9 @@ import 'dart:math';
 import 'package:flame/components.dart';
 import 'package:flame_bloc/flame_bloc.dart';
 import 'package:flutter/rendering.dart';
-import 'package:whack_a_dop/bloc/game_bloc.dart';
-import 'package:whack_a_dop/components/ball.dart';
-import 'package:whack_a_dop/game/strategies.dart';
+import 'package:trial_flame/bloc/game_bloc.dart';
+import 'package:trial_flame/components/ball.dart';
+import 'package:trial_flame/game/strategies.dart';
 
 class WhackADopWorld extends World with HasGameReference, FlameBlocReader<GameBloc, GameState> {
   final Random _randomPos = Random();
