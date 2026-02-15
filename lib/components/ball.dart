@@ -96,19 +96,19 @@ class Ball extends PositionComponent
 
     parent!.add(
     ParticleSystemComponent(
-      position: position, // Spawn at ball's center
+      position: position,
       particle: Particle.generate(
         count: 20,
         lifespan: 0.5,
         generator: (i) => AcceleratedParticle(
-          acceleration: Vector2(0, 200), // Gravity-like effect
+          acceleration: Vector2(0, 200),
           speed: Vector2(
-            (Random().nextDouble() - 0.5) * 600, // Random X speed
-            (Random().nextDouble() - 0.5) * 600, // Random Y speed
+            (Random().nextDouble() - 0.5) * 600, 
+            (Random().nextDouble() - 0.5) * 600, 
           ),
           child: CircleParticle(
             radius: 4,
-            paint: Paint()..color = effectColor, // Match ball color!
+            paint: Paint()..color = effectColor, 
           ),
         ),
       ),
